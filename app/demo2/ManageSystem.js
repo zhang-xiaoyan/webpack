@@ -5,6 +5,7 @@ import Button from './Button';
 //import Greeting from './Greeting';
 import LoginControl from './LoginControl';
 import Page from './Page';
+import List from './List';
 
 class ManageSystem extends Component {
     render() {
@@ -15,6 +16,7 @@ class ManageSystem extends Component {
                 <Button/>
                 <LoginControl/>
                 <Page/>
+                <List/>
             </div>
         )
     }
