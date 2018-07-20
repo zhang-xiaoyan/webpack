@@ -6,6 +6,9 @@ import Button from './Button';
 import LoginControl from './LoginControl';
 import Page from './Page';
 import List from './List';
+import Form from './Form';
+import Select from './Select';
+import TwoInput from './TwoInput';
 
 class ManageSystem extends Component {
     render() {
@@ -17,6 +20,9 @@ class ManageSystem extends Component {
                 <LoginControl/>
                 <Page/>
                 <List/>
+                <Form/>
+                <Select/>
+                <TwoInput/>
             </div>
         )
     }
