@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+// 受控组件
 
 class TwoInput extends Component {
     constructor(props) {

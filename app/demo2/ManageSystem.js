@@ -9,6 +9,7 @@ import List from './List';
 import Form from './Form';
 import Select from './Select';
 import TwoInput from './TwoInput';
+import Calculator from './Calculator';
 
 class ManageSystem extends Component {
     render() {
@@ -22,7 +23,8 @@ class ManageSystem extends Component {
                 {/*<List/>*/}
                 {/*<Form/>*/}
                 {/*<Select/>*/}
-                <TwoInput/>
+                {/*<TwoInput/>*/}
+                <Calculator/>
             </div>
         )
     }
