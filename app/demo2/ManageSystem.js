@@ -14,14 +14,14 @@ class ManageSystem extends Component {
     render() {
         return (
             <div>
-                <ItemList name='system'/>
-                <Clock/>
-                <Button/>
-                <LoginControl/>
-                <Page/>
-                <List/>
-                <Form/>
-                <Select/>
+                {/*<ItemList name='system'/>*/}
+                {/*<Clock/>*/}
+                {/*<Button/>*/}
+                {/*<LoginControl/>*/}
+                {/*<Page/>*/}
+                {/*<List/>*/}
+                {/*<Form/>*/}
+                {/*<Select/>*/}
                 <TwoInput/>
             </div>
         )
